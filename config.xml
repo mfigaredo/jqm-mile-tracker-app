@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets"  
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mafh97.miletracker"
+        version   = "1.0.0">
+
+    <name>Mile Tracker</name>
+
+    <description>
+        Mile Tracker example HTML5/CSS3/JQUERY application
+    </description>
+
+    <author href="http://github.com/mfigaredo" email="mfigaredo@gmail.com">
+        Miguel Figaredo
+    </author>
+
+    <!-- Define the main entry-point to the application -->
+    <content src="index.html" />
+
+    <!-- Customize your app and platform with the preference element. -->
+    <!-- <preference name="DisallowOverscroll"         value="true" /> -->
+
+    <!-- Define a specific version of PhoneGap to build into your app. -->
+    <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
+    <gap:plugin name="cordova-plugin-whitelist" spec="~1.3.2" source="npm"/>
+    <access origin="*" />
+    <allow-navigation href="*" />
+
+	<icon src="icon.png" />
+</widget>

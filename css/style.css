@@ -1,0 +1,24 @@
+body{
+	text-align:center;
+}
+
+ul{
+	display:block;
+}
+
+.controls{
+	float:right;
+	font-size: 0.8em;
+}
+
+#footer {
+	display:none;
+}
+
+div[data-role=ui-content] {
+	padding: 0px 10px;
+}
+
+#stats p {
+	color:red;
+}
