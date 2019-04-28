@@ -150,8 +150,14 @@ $(document).one('pageinit', function(){
     //     console.log('loading ' + $(this).attr('id'))
     //     $(this).find('[data-role=footer]').html( $('#footer').html() ).css({'padding':'0 auto'});
     // })   
+    
+    var currentYear = (new Date).getFullYear()
+    // alert(currentYear)
+    $('span.currentYear').text(currentYear)
     $('[data-role=header]').html( $('#header').html() );
     $('[data-role=footer]').html( $('#footer').html() ).css({'padding':'0 auto'});
+
+    
 })
 
 
